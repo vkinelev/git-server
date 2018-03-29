@@ -1,0 +1,5 @@
+#!/bin/sh
+
+repository_name = "$1"
+
+curl http://api:3000/webhooks
